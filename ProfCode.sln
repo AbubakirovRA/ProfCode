@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example027_ObjectOrientedTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example028_ObjectOrientedThinkingClassComponent4", "Example028_ObjectOrientedThinkingClassComponent4\Example028_ObjectOrientedThinkingClassComponent4.csproj", "{048C1858-44C8-43AD-A448-CAD33D0BEBDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example029_ObjectOrientedThinkingClassComponent5", "Example029_ObjectOrientedThinkingClassComponent5\Example029_ObjectOrientedThinkingClassComponent5.csproj", "{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{048C1858-44C8-43AD-A448-CAD33D0BEBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048C1858-44C8-43AD-A448-CAD33D0BEBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{048C1858-44C8-43AD-A448-CAD33D0BEBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
