@@ -1,4 +1,6 @@
-﻿#region Теория
+﻿using static System.Console;
+
+#region Теория
 #region Начало
 
 ////                                       
@@ -80,26 +82,26 @@
 
 #region Динамический массив и заполнение массива
 
-//Console.WriteLine("Введите число элементов массива A");
+//WriteLine("Введите число элементов массива A");
 
-//int size = int.Parse(Console.ReadLine());
+//int size = int.Parse(ReadLine());
 //int[] A = new int[size];
 
 //for (int i = 0; i < size; i++)
 //{
-//    Console.Write($"Введите A[{i}]: ");
-//    A[i] = Convert.ToInt32(Console.ReadLine());
+//    Write($"Введите A[{i}]: ");
+//    A[i] = Convert.ToInt32(ReadLine());
 //}
 
 ////for (int i = 0; i < size; i++)
 ////for (int i = 0; i < A.Length; i++)
 ////{
-////    Console.Write($"{A[i]} ");
+////    Write($"{A[i]} ");
 ////}
 
 //foreach (int e in A)
 //{
-//    Console.Write($"{e} ");
+//    Write($"{e} ");
 //}
 
 #endregion
@@ -123,14 +125,14 @@ Random rnd = new Random(58);
 
 //for (int i = 0; i < 100; i++)
 //{
-//    Console.Write($"{rnd.Next(10)} ");
+//    Write($"{rnd.Next(10)} ");
 //}
 
 #endregion
 
 #region Заполнение при помощи генератора случайных чисел
 
-//int length = 10; // int.Parse(Console.ReadLine());
+//int length = 10; // int.Parse(ReadLine());
 
 
 //int[] b = new int[length];
@@ -138,40 +140,40 @@ Random rnd = new Random(58);
 //for (int i = 0; i < b.Length; i++)
 //{
 //    b[i] = rnd.Next(10);
-//    Console.Write($"{b[i]} ");
+//    Write($"{b[i]} ");
 //}
-//Console.WriteLine();
+//WriteLine();
 
 #endregion
 
 #region Изменение размера массива
-int length = 5; // int.Parse(Console.ReadLine());
-Console.WriteLine("Исходные массив: ");
+int length = 5; // int.Parse(ReadLine());
+WriteLine("Исходные массив: ");
 int[] b = new int[length];
 
 for (int i = 0; i < b.Length; i++)
 {
     b[i] = rnd.Next(10);
-    Console.Write($"{b[i]} ");
+    Write($"{b[i]} ");
 }
 
 #region Шаг 1
 
-//Console.WriteLine("\n\nИзменённый размер массива: ");
+//WriteLine("\n\nИзменённый размер массива: ");
 
-//int newLength = 15; // int.Parse(Console.ReadLine());
+//int newLength = 15; // int.Parse(ReadLine());
 
 //b = new int[newLength];
 
 //for (int i = 0; i < b.Length; i++)
 //{
-//    Console.Write($"{b[i]} ");
+//    Write($"{b[i]} ");
 //}
 
 #endregion
 #region Шаг 2
 
-//int newLength = 15; // int.Parse(Console.ReadLine());
+//int newLength = 15; // int.Parse(ReadLine());
 //int[] t = new int[newLength];
 
 //for (int i = 0; i < b.Length; i++)
@@ -182,7 +184,7 @@ for (int i = 0; i < b.Length; i++)
 
 //b = t;
 
-//Console.WriteLine("\n\nИзменённый массива b через массив t: ");
+//WriteLine("\n\nИзменённый массива b через массив t: ");
 //for (int i = oldLength; i < b.Length; i++)
 //{
 //    b[i] = rnd.Next(10);
@@ -192,13 +194,13 @@ for (int i = 0; i < b.Length; i++)
 
 //for (int i = 0; i < b.Length; i++)
 //{
-//    Console.Write($"{b[i]} ");
+//    Write($"{b[i]} ");
 //}
 
 #endregion
 #region Шаг 3
 
-//int newLength = 15; // int.Parse(Console.ReadLine());
+//int newLength = 15; // int.Parse(ReadLine());
 //int[] t = new int[b.Length];
 
 //for (int i = 0; i < b.Length; i++)
@@ -214,7 +216,7 @@ for (int i = 0; i < b.Length; i++)
 //    b[i] = t[i];
 //}
 
-//Console.WriteLine("\n\nИзменённый массива b через массив t: ");
+//WriteLine("\n\nИзменённый массива b через массив t: ");
 //for (int i = oldLength; i < b.Length; i++)
 //{
 //    b[i] = rnd.Next(10);
@@ -224,14 +226,14 @@ for (int i = 0; i < b.Length; i++)
 
 //for (int i = 0; i < b.Length; i++)
 //{
-//    Console.Write($"{b[i]} ");
+//    Write($"{b[i]} ");
 //}
 
 #endregion
 #region Шаг 4
 
 //int oldLength = b.Length;
-//int newLength = 15; // int.Parse(Console.ReadLine());
+//int newLength = 15; // int.Parse(ReadLine());
 
 //Array.Resize(ref b, newLength);
 
@@ -239,27 +241,27 @@ for (int i = 0; i < b.Length; i++)
 //{
 //    b[i] = rnd.Next(10);
 //}
-//Console.WriteLine("\nИзменённый массив b");
+//WriteLine("\nИзменённый массив b");
 //for (int i = 0; i < b.Length; i++)
 //{
-//    Console.Write($"{b[i]} ");
+//    Write($"{b[i]} ");
 //}
 
 #endregion
 #region Шаг 5
 
 //Array.Sort(b);
-//Console.WriteLine("\n\nУпорядоченный массив: ");
+//WriteLine("\n\nУпорядоченный массив: ");
 
-//for (int i = 0; i < b.Length; i++) Console.Write($"{b[i]} ");
+//for (int i = 0; i < b.Length; i++) Write($"{b[i]} ");
 
 //Array.Reverse(b);
-//Console.WriteLine("\n\nИнвертированный массив: ");
+//WriteLine("\n\nИнвертированный массив: ");
 
-//for (int i = 0; i < b.Length; i++) Console.Write($"{b[i]} ");
-
-#endregion
+//for (int i = 0; i < b.Length; i++) Write($"{b[i]} ");
 
 #endregion
 
-Console.WriteLine();
+#endregion
+
+WriteLine();

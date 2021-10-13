@@ -1,4 +1,6 @@
-﻿#region Двумерные массивы 
+﻿using static System.Console;
+
+#region Двумерные массивы 
 
 #region Теория
 
@@ -23,12 +25,12 @@ int[,] matrix = new int[3, 4];
 
 #region Вывод на экран 1
 
-//for (int i = 0; i < 4; i++) { Console.Write($"{matrix[0, i]} "); }
-//Console.WriteLine();
-//for (int i = 0; i < 4; i++) { Console.Write($"{matrix[1, i]} "); }
-//Console.WriteLine();
-//for (int i = 0; i < 4; i++) { Console.Write($"{matrix[2, i]} "); }
-//Console.WriteLine();
+//for (int i = 0; i < 4; i++) { Write($"{matrix[0, i]} "); }
+//WriteLine();
+//for (int i = 0; i < 4; i++) { Write($"{matrix[1, i]} "); }
+//WriteLine();
+//for (int i = 0; i < 4; i++) { Write($"{matrix[2, i]} "); }
+//WriteLine();
 
 #endregion
 #region Вывод на экран 2
@@ -37,32 +39,32 @@ int[,] matrix = new int[3, 4];
 //{
 //    for (int j = 0; j < 4; j++)
 //    {
-//        Console.Write($"{matrix[i, j]} ");
+//        Write($"{matrix[i, j]} ");
 //    }
-//    Console.WriteLine();
+//    WriteLine();
 //}
 
 #endregion
 #region Вывод на экран 3
 
-//Console.WriteLine(matrix.Rank);
+//WriteLine(matrix.Rank);
 //for (int i = 0; i < matrix.GetLength(0); i++)
 //{
 //    for (int j = 0; j < matrix.GetLength(1); j++)
 //    {
-//        Console.Write($"{matrix[i, j]} ");
+//        Write($"{matrix[i, j]} ");
 //    }
-//    Console.WriteLine();
+//    WriteLine();
 //}
 
 #endregion
 #region Вывод на экран 4
 
-//Console.Write("Количество строк: ");
-//int row = Convert.ToInt32(Console.ReadLine());
+//Write("Количество строк: ");
+//int row = Convert.ToInt32(ReadLine());
 
-//Console.Write("Количество столбцов: ");
-//int col = Convert.ToInt32(Console.ReadLine());
+//Write("Количество столбцов: ");
+//int col = Convert.ToInt32(ReadLine());
 
 //Random r = new Random();
 
@@ -73,12 +75,12 @@ int[,] matrix = new int[3, 4];
 //    for (int j = 0; j < table.GetLength(1); j++)
 //    {
 //        table[i, j] = r.Next(1, 5);
-//        Console.Write($"{table[i, j]} ");
+//        Write($"{table[i, j]} ");
 //    }
-//    Console.WriteLine();
+//    WriteLine();
 //}
 
-//Console.ReadLine();
+//ReadLine();
 #endregion
 
 #endregion
@@ -87,9 +89,9 @@ int[,] matrix = new int[3, 4];
 
 // ТипДанных[, ... ,] ИдентификаторМассива = 
 // new ТипДанных[размерность №0, размерность №1, ..., размерность №N];
-Console.WriteLine("\nint[,,] array3 = new int[2, 3, 4] : ");
+WriteLine("\nint[,,] array3 = new int[2, 3, 4] : ");
 int[,,] array3 = new int[2, 3, 4];
-Console.WriteLine($"Всего элементов: {array3.Length}");
+WriteLine($"Всего элементов: {array3.Length}");
 
 for (int i = 0; i < array3.GetLength(0); i++)
 {
@@ -97,15 +99,15 @@ for (int i = 0; i < array3.GetLength(0); i++)
     {
         for (int k = 0; k < array3.GetLength(2); k++)
         {
-            Console.WriteLine($"[{i}, {j}, {k}] = {array3[i, j, k]}");
+            WriteLine($"[{i}, {j}, {k}] = {array3[i, j, k]}");
         }
     }
 }
 
 int[,,,] array4 = new int[2, 3, 4, 5];
 
-Console.WriteLine("\nint[,,,] array4 = new int[2, 3, 4, 5] : ");
-Console.WriteLine($"Всего элементов: {array4.Length}");
+WriteLine("\nint[,,,] array4 = new int[2, 3, 4, 5] : ");
+WriteLine($"Всего элементов: {array4.Length}");
 
 
 for (int i = 0; i < array4.GetLength(0); i++)
@@ -116,7 +118,7 @@ for (int i = 0; i < array4.GetLength(0); i++)
         {
             for (int m = 0; m < array4.GetLength(3); m++)
             {
-                Console.WriteLine($"[{i}, {j}, {k}, {m}] = {array4[i, j, k, m]}");
+                WriteLine($"[{i}, {j}, {k}, {m}] = {array4[i, j, k, m]}");
             }
         }
     }
@@ -124,8 +126,8 @@ for (int i = 0; i < array4.GetLength(0); i++)
 
 int[,,,,] array5 = new int[2, 3, 4, 5, 6];
 
-Console.WriteLine("\nint[,,,,] array5 = new int[2, 3, 4, 5, 6] : ");
-Console.WriteLine($"Всего элементов: {array5.Length}");
+WriteLine("\nint[,,,,] array5 = new int[2, 3, 4, 5, 6] : ");
+WriteLine($"Всего элементов: {array5.Length}");
 
 
 for (int i = 0; i < array5.GetLength(0); i++)
@@ -138,7 +140,7 @@ for (int i = 0; i < array5.GetLength(0); i++)
             {
                 for (int n = 0; n < array5.GetLength(4); n++)
                 {
-                    Console.WriteLine($"[{i}, {j}, {k}, {m}, {n}] = {array5[i, j, k, m, n]}");
+                    WriteLine($"[{i}, {j}, {k}, {m}, {n}] = {array5[i, j, k, m, n]}");
                 }
             }
         }

@@ -1,4 +1,7 @@
-﻿/// <summary>
+﻿using System;
+using static System.Console;
+
+/// <summary>
 /// Методод возведения числа в квадрат
 /// </summary>
 /// <param name="x">Число</param>
@@ -59,49 +62,49 @@ double Max(double Value1, double Value2, double Value3)
 #region Демонстрация static double f(double x)
 
 //var result = f(5);
-//Console.WriteLine($"f(5) = {result}");
+//WriteLine($"f(5) = {result}");
 
-//Console.WriteLine("\nТаблица значений функции f(x) = x^2:");
+//WriteLine("\nТаблица значений функции f(x) = x^2:");
 //for (double x = -2; x <= 2; x+=0.5)
 //{
-//    Console.WriteLine($"f({x,4}) = {f(x)}");
+//    WriteLine($"f({x,4}) = {f(x)}");
 //}
 
 #endregion
 
 #region Демонстрация bool IsEven(int N)
 
-//Console.Write("Введите число: ");
-//int numb = Convert.ToInt32(Console.ReadLine());
-//Console.Write("Результат: ");
-//Console.WriteLine(IsEven(numb) ? "Чётное" : "Нечётное");
-//Console.ReadKey();
+//Write("Введите число: ");
+//int numb = Convert.ToInt32(ReadLine());
+//Write("Результат: ");
+//WriteLine(IsEven(numb) ? "Чётное" : "Нечётное");
+//ReadKey();
 
 #endregion
 
 #region Демонстрация string DeleteDuplicates(string Str)
 
-//Console.Write("\nСтрока с повторяющимися символами: ");
-//string text = Console.ReadLine();
-//Console.Write("Результат: ");
-//Console.WriteLine(DeleteDuplicates(text));
-//Console.ReadKey();
+//Write("\nСтрока с повторяющимися символами: ");
+//string text = ReadLine();
+//Write("Результат: ");
+//WriteLine(DeleteDuplicates(text));
+//ReadKey();
 
 #endregion
 
 #region Демонстрация double Max(double Value1, double Value2, double Value3)
 
-//Console.Write("\nВведите первое число: ");
-//int numb1 = Convert.ToInt32(Console.ReadLine());
+//Write("\nВведите первое число: ");
+//int numb1 = Convert.ToInt32(ReadLine());
 
-//Console.Write("Введите второе число: ");
-//int numb2 = Convert.ToInt32(Console.ReadLine());
+//Write("Введите второе число: ");
+//int numb2 = Convert.ToInt32(ReadLine());
 
-//Console.Write("Введите третье число: ");
-//int numb3 = Convert.ToInt32(Console.ReadLine());
+//Write("Введите третье число: ");
+//int numb3 = Convert.ToInt32(ReadLine());
 
-//Console.Write("Результат: ");
-//Console.WriteLine($"Максимальное: {Max(numb1, numb2, numb3)}");
-//Console.ReadKey();
+//Write("Результат: ");
+//WriteLine($"Максимальное: {Max(numb1, numb2, numb3)}");
+//ReadKey();
 
 #endregion

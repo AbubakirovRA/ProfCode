@@ -1,14 +1,14 @@
 ﻿// *Ранее назывались "Процедуры"
-
+using System;
+using static System.Console;
 #region Не принимают параметры, не возвращают результат
 
-using System;
 /// <summary>
 /// Системная пауза
 /// </summary>
 static void SystemPause()
 {
-    Console.ReadKey();
+    ReadKey();
 }
 
 /// <summary>
@@ -16,7 +16,7 @@ static void SystemPause()
 /// </summary>
 static void SayText1()
 {
-    Console.WriteLine("Привет, Мир!");
+    WriteLine("Привет, Мир!");
 }
 
 #endregion
@@ -31,7 +31,7 @@ void SayText2(byte Count)
 {
     for (int i = 0; i < Count; i++)
     {
-        Console.WriteLine("Привет, Мир!");
+        WriteLine("Привет, Мир!");
     }
 }
 
@@ -44,7 +44,7 @@ void PrintText(string Message, byte Count)
 {
     for (int i = 0; i < Count; i++)
     {
-        Console.WriteLine(Message);
+        WriteLine(Message);
     }
 }
 
@@ -127,14 +127,14 @@ PrintText("Мир прекрасен! ", 3);  // Вызов метода void Pr
 string msg = SayTextCount1(); // Вызов метода string SayTextCount1()
 var mathPi = Pi();            // Вызов метода double Pi()
 
-Console.WriteLine($"Результат работы SayTextCount(): {msg}");
-Console.WriteLine($"Результат работы Pi(): {mathPi}");
+WriteLine($"Результат работы SayTextCount(): {msg}");
+WriteLine($"Результат работы Pi(): {mathPi}");
 
 
 msg = SayTextCount2(3);       // Вызов метода string SayTextCount2(byte Count) 
                              // и передача в качестве параметра Count равного 3
 
-Console.WriteLine($"Результат работы SayTextCount(byte Count): {msg}");
+WriteLine($"Результат работы SayTextCount(byte Count): {msg}");
 
 msg = SayTextCount3("Это хороший день! ", 5);  // Вызов метода 
                                               // string SayTextCount3(string Message, byte Count)
@@ -142,7 +142,7 @@ msg = SayTextCount3("Это хороший день! ", 5);  // Вызов ме�
                                               // Message равного "Это хороший день! "
                                               // и Count равного 5
 
-Console.WriteLine($"Результат работы SayTextCount(string Message, byte Count): {msg}");
+WriteLine($"Результат работы SayTextCount(string Message, byte Count): {msg}");
 
 #endregion
 

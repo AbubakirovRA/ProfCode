@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace Example025_ObjectOrientedThinkingClassComponent1
 {
@@ -40,7 +41,7 @@ namespace Example025_ObjectOrientedThinkingClassComponent1
         /// </summary>
         public void Start()
         {
-            Console.WriteLine($"Игра \"{name}\" началась...");
+            WriteLine($"Игра \"{name}\" началась...");
         }
 
         /// <summary>
@@ -48,7 +49,7 @@ namespace Example025_ObjectOrientedThinkingClassComponent1
         /// </summary>
         public void Progress()
         {
-            Console.WriteLine($"Игра: {name} Уровень: {level} Монет: {gold}");
+            WriteLine($"Игра: {name} Уровень: {level} Монет: {gold}");
         }
     }
     /// <summary>
@@ -83,7 +84,7 @@ namespace Example025_ObjectOrientedThinkingClassComponent1
             warcraftGame.Start();
             warcraftGame.Progress();
 
-            Console.WriteLine();
+            WriteLine();
 
             #endregion
 
@@ -94,7 +95,7 @@ namespace Example025_ObjectOrientedThinkingClassComponent1
             wowGame.Start();
             wowGame.Progress();
 
-            Console.WriteLine();
+            WriteLine();
 
             #endregion
 
