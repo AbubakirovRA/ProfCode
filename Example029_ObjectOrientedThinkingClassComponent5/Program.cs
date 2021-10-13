@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace Example029_ObjectOrientedThinkingClassComponent5
 {
@@ -85,7 +86,7 @@ namespace Example029_ObjectOrientedThinkingClassComponent5
         /// </summary>
         public void Start()
         {
-            Console.WriteLine($"Игра \"{this.name}\" началась...");
+            WriteLine($"Игра \"{this.name}\" началась...");
         }
 
         /// <summary>
@@ -93,7 +94,7 @@ namespace Example029_ObjectOrientedThinkingClassComponent5
         /// </summary>
         public void Progress()
         {
-            Console.WriteLine($"Игра: {this.name} Уровень: {this.level} Монет: {this.gold}\n");
+            WriteLine($"Игра: {this.name} Уровень: {this.level} Монет: {this.gold}\n");
         }
     }
 

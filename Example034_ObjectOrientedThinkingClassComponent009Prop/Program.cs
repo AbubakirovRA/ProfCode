@@ -1,8 +1,9 @@
 ﻿using System;
 using static System.Console;
 
-namespace Example028_ObjectOrientedThinkingClassComponent4
+namespace Example034_ObjectOrientedThinkingClassComponent009Prop
 {
+
     /// <summary>
     /// Класс игры
     /// </summary>
@@ -11,35 +12,12 @@ namespace Example028_ObjectOrientedThinkingClassComponent4
         /// <summary>
         /// Конструктор, позволяющий создать новую игру
         /// </summary>
-        /// <param name="name">Имя игры</param>
-        public Game(string name)
-        {
-            this.name = name;
-            this.level = GameLevel.Easy;
-            this.gold = 200;
-        }
-
-        /// <summary>
-        /// Конструктор, позволяющий создать новую игру
-        /// </summary>
-        /// <param name="name">Имя игры</param>
-        /// <param name="level">Уровень игры</param>
-        public Game(string name, GameLevel level)
-        {
-            this.name = name;
-            this.level = level;
-            this.gold = 200;
-        }
-
-        /// <summary>
-        /// Конструктор, позволяющий создать новую игру
-        /// </summary>
-        /// <param name="name">Имя игры</param>
+        /// <param name="Name">Имя игры</param>
         /// <param name="level">Уровень игры</param>
         /// <param name="gold">Количество начального золота</param>
-        public Game(string name, GameLevel level, uint gold)
+        public Game(string Name, GameLevel level, uint gold)
         {
-            this.name = name;
+            this.name = Name;
             this.level = level;
             this.gold = gold;
         }
@@ -47,24 +25,24 @@ namespace Example028_ObjectOrientedThinkingClassComponent4
         /// <summary>
         /// Имя игры
         /// </summary>
-        public string name = String.Empty;
+        public string name;
 
         /// <summary>
         /// Уровень игры
         /// </summary>
-        public GameLevel level = 0;
+        public GameLevel level;
 
         /// <summary>
         /// Количество золота
         /// </summary>
-        public uint gold = 0;
+        public uint gold;
 
         /// <summary>
         /// Метод, запускающий игру
         /// </summary>
         public void Start()
         {
-            WriteLine($"Игра \"{this.name}\" началась...");
+            WriteLine($"Игра \"{name}\" началась...");
         }
 
         /// <summary>
@@ -72,7 +50,7 @@ namespace Example028_ObjectOrientedThinkingClassComponent4
         /// </summary>
         public void Progress()
         {
-            WriteLine($"Игра: {this.name} Уровень: {this.level} Монет: {this.gold}\n");
+            WriteLine($"Игра: {name} Уровень: {level} Монет: {gold}\n");
         }
     }
     /// <summary>
@@ -99,6 +77,16 @@ namespace Example028_ObjectOrientedThinkingClassComponent4
     {
         static void Main(string[] args)
         {
+            Game game = new Game("Concrete Game", GameLevel.Medium, 600);
+            game.Start();
+            game.Progress();
+
+            game.gold = 1100;
+
+            game.Progress();
+
+
+
         }
     }
 }
