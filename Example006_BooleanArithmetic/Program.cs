@@ -118,7 +118,7 @@ res = a == b;       // false
 res = a != b;       // true
 
 res = a > a && a != b || !(a >= b);
-res = (a > b) && (a > c);
+res = a > b && (a > c);
 res = a > b && a > c;
 
 #endregion
