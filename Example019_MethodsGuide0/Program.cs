@@ -1,10 +1,5 @@
 ﻿using System;
 using static System.Console;
-
-
-// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
-using System;
-using static System.Console;
 // "Нарисовать" несколько несколько прямоугольников
 
 #region Решение 1. Актуализация
