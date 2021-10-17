@@ -37,57 +37,63 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example015_Multidimensional
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example016_JaggedArrays", "Example016_JaggedArrays\Example016_JaggedArrays.csproj", "{9E1E68CB-A561-4DBA-A766-E5E2BD115821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example017_UselessInformations", "Example017_UselessInformations\Example017_UselessInformations.csproj", "{F7102D7A-5FCB-405B-9D0A-81A7F96F5E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example017_UselessInformations", "Example017_UselessInformations\Example017_UselessInformations.csproj", "{F7102D7A-5FCB-405B-9D0A-81A7F96F5E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example018_IntroMethods", "Example018_IntroMethods\Example018_IntroMethods.csproj", "{FCDC5059-827F-4457-95F5-AC9CB6506062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example018_IntroMethods", "Example018_IntroMethods\Example018_IntroMethods.csproj", "{FCDC5059-827F-4457-95F5-AC9CB6506062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example019_MethodsGuide0", "Example019_MethodsGuide0\Example019_MethodsGuide0.csproj", "{8BE8B876-9B86-4243-A15A-E71515F133D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example019_MethodsGuide0", "Example019_MethodsGuide0\Example019_MethodsGuide0.csproj", "{8BE8B876-9B86-4243-A15A-E71515F133D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example020_MethodsGuide1", "Example020_MethodsGuide1\Example020_MethodsGuide1.csproj", "{9A575658-79DD-4914-AF8C-E8307EC79EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example020_MethodsGuide1", "Example020_MethodsGuide1\Example020_MethodsGuide1.csproj", "{9A575658-79DD-4914-AF8C-E8307EC79EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example021_MethodsGuide2", "Example021_MethodsGuide2\Example021_MethodsGuide2.csproj", "{26212024-600B-41EE-B4D8-067457B3E40C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example021_MethodsGuide2", "Example021_MethodsGuide2\Example021_MethodsGuide2.csproj", "{26212024-600B-41EE-B4D8-067457B3E40C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example021_MethodsGuide3", "Example021_MethodsGuide3\Example021_MethodsGuide3.csproj", "{22A34934-8FB4-46A0-9E54-16ED279FBAF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example021_MethodsGuide3", "Example021_MethodsGuide3\Example021_MethodsGuide3.csproj", "{22A34934-8FB4-46A0-9E54-16ED279FBAF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example021_MethodsGuide4", "Example021_MethodsGuide4\Example021_MethodsGuide4.csproj", "{08BAC57C-77B0-4AFA-8232-DC1BA8A40571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example021_MethodsGuide4", "Example021_MethodsGuide4\Example021_MethodsGuide4.csproj", "{08BAC57C-77B0-4AFA-8232-DC1BA8A40571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example021_MethodsGuide5", "Example021_MethodsGuide5\Example021_MethodsGuide5.csproj", "{32EDDA9C-29A2-4E3F-90BB-AEDAAADD1CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example021_MethodsGuide5", "Example021_MethodsGuide5\Example021_MethodsGuide5.csproj", "{32EDDA9C-29A2-4E3F-90BB-AEDAAADD1CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example022_ObjectOrientedThinkingFirstStep", "Example022_ObjectOrientedThinkingFirstStep\Example022_ObjectOrientedThinkingFirstStep.csproj", "{2AF897FB-1574-4A06-ACDD-98A4F9798196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example022_ObjectOrientedThinkingFirstStep", "Example022_ObjectOrientedThinkingFirstStep\Example022_ObjectOrientedThinkingFirstStep.csproj", "{2AF897FB-1574-4A06-ACDD-98A4F9798196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example023_ObjectOrientedThinkingFirstStep", "Example023_ObjectOrientedThinkingFirstStep\Example023_ObjectOrientedThinkingFirstStep.csproj", "{51748A3A-6DA7-4F15-9AF6-5ECE02839A64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example023_ObjectOrientedThinkingFirstStep", "Example023_ObjectOrientedThinkingFirstStep\Example023_ObjectOrientedThinkingFirstStep.csproj", "{51748A3A-6DA7-4F15-9AF6-5ECE02839A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example024_ObjectOrientedThinkingClassComponent0", "Example024_ObjectOrientedThinkingClassComponent0\Example024_ObjectOrientedThinkingClassComponent0.csproj", "{1A5078CD-8718-4E34-9B19-9237E8E804BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example024_ObjectOrientedThinkingClassComponent0", "Example024_ObjectOrientedThinkingClassComponent0\Example024_ObjectOrientedThinkingClassComponent0.csproj", "{1A5078CD-8718-4E34-9B19-9237E8E804BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example026_ObjectOrientedThinkingClassComponent2", "Example026_ObjectOrientedThinkingClassComponent2\Example026_ObjectOrientedThinkingClassComponent2.csproj", "{A3D5DDDA-8AF4-4A9C-9325-A1AED8DEFFCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example026_ObjectOrientedThinkingClassComponent2", "Example026_ObjectOrientedThinkingClassComponent2\Example026_ObjectOrientedThinkingClassComponent2.csproj", "{A3D5DDDA-8AF4-4A9C-9325-A1AED8DEFFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example025_ObjectOrientedThinkingClassComponent1", "Example025_ObjectOrientedThinkingClassComponent1\Example025_ObjectOrientedThinkingClassComponent1.csproj", "{CDFEB1B1-BB8F-4D6E-9DB1-307FBA3A10BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example025_ObjectOrientedThinkingClassComponent1", "Example025_ObjectOrientedThinkingClassComponent1\Example025_ObjectOrientedThinkingClassComponent1.csproj", "{CDFEB1B1-BB8F-4D6E-9DB1-307FBA3A10BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example027_ObjectOrientedThinkingClassComponent3", "Example027_ObjectOrientedThinkingClassComponent3\Example027_ObjectOrientedThinkingClassComponent3.csproj", "{FC694124-7D97-47CC-8F2B-92311620FE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example027_ObjectOrientedThinkingClassComponent3", "Example027_ObjectOrientedThinkingClassComponent3\Example027_ObjectOrientedThinkingClassComponent3.csproj", "{FC694124-7D97-47CC-8F2B-92311620FE29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example028_ObjectOrientedThinkingClassComponent4", "Example028_ObjectOrientedThinkingClassComponent4\Example028_ObjectOrientedThinkingClassComponent4.csproj", "{048C1858-44C8-43AD-A448-CAD33D0BEBDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example028_ObjectOrientedThinkingClassComponent4", "Example028_ObjectOrientedThinkingClassComponent4\Example028_ObjectOrientedThinkingClassComponent4.csproj", "{048C1858-44C8-43AD-A448-CAD33D0BEBDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example029_ObjectOrientedThinkingClassComponent5", "Example029_ObjectOrientedThinkingClassComponent5\Example029_ObjectOrientedThinkingClassComponent5.csproj", "{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example029_ObjectOrientedThinkingClassComponent5", "Example029_ObjectOrientedThinkingClassComponent5\Example029_ObjectOrientedThinkingClassComponent5.csproj", "{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example030_ObjectOrientedThinkingStatic", "Example030_ObjectOrientedThinkingStatic\Example030_ObjectOrientedThinkingStatic.csproj", "{08C80EA0-EE4A-49DD-A066-CD20CDA12830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example030_ObjectOrientedThinkingStatic", "Example030_ObjectOrientedThinkingStatic\Example030_ObjectOrientedThinkingStatic.csproj", "{08C80EA0-EE4A-49DD-A066-CD20CDA12830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example031_ObjectOrientedThinkingClassComponent006StaticCtor", "Example031_ObjectOrientedThinkingClassComponent006StaticCtor\Example031_ObjectOrientedThinkingClassComponent006StaticCtor.csproj", "{387DC339-AA7E-4B50-BD17-E8630DF18A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example031_ObjectOrientedThinkingClassComponent006StaticCtor", "Example031_ObjectOrientedThinkingClassComponent006StaticCtor\Example031_ObjectOrientedThinkingClassComponent006StaticCtor.csproj", "{387DC339-AA7E-4B50-BD17-E8630DF18A11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example033_ObjectOrientedThinkingClassComponent008StaticCtor", "Example033_ObjectOrientedThinkingClassComponent008StaticCtor\Example033_ObjectOrientedThinkingClassComponent008StaticCtor.csproj", "{702D4AE6-A3E6-42AD-A8D3-E8A793AAFEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example033_ObjectOrientedThinkingClassComponent008StaticCtor", "Example033_ObjectOrientedThinkingClassComponent008StaticCtor\Example033_ObjectOrientedThinkingClassComponent008StaticCtor.csproj", "{702D4AE6-A3E6-42AD-A8D3-E8A793AAFEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example034_ObjectOrientedThinkingClassComponent009Prop", "Example034_ObjectOrientedThinkingClassComponent009Prop\Example034_ObjectOrientedThinkingClassComponent009Prop.csproj", "{DE325FF1-DC04-4E7C-8D71-ED7A81CA3A92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example034_ObjectOrientedThinkingClassComponent009Prop", "Example034_ObjectOrientedThinkingClassComponent009Prop\Example034_ObjectOrientedThinkingClassComponent009Prop.csproj", "{DE325FF1-DC04-4E7C-8D71-ED7A81CA3A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example035_ObjectOrientedThinkingClassComponent010Prop", "Example035_ObjectOrientedThinkingClassComponent010Prop\Example035_ObjectOrientedThinkingClassComponent010Prop.csproj", "{5B9143E2-38F7-4A42-89BB-1F9658921ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example035_ObjectOrientedThinkingClassComponent010Prop", "Example035_ObjectOrientedThinkingClassComponent010Prop\Example035_ObjectOrientedThinkingClassComponent010Prop.csproj", "{5B9143E2-38F7-4A42-89BB-1F9658921ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example036_ObjectOrientedThinkingClassComponent011Prop", "Example036_ObjectOrientedThinkingClassComponent011Prop\Example036_ObjectOrientedThinkingClassComponent011Prop.csproj", "{B5E5467A-7BF0-4042-9D5F-9D6145D4CBB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example036_ObjectOrientedThinkingClassComponent011Prop", "Example036_ObjectOrientedThinkingClassComponent011Prop\Example036_ObjectOrientedThinkingClassComponent011Prop.csproj", "{B5E5467A-7BF0-4042-9D5F-9D6145D4CBB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example037_IntroGeneric", "Example037_IntroGeneric\Example037_IntroGeneric.csproj", "{FA0F16E1-9196-4376-A03A-2B8DB31679E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example037_IntroGeneric", "Example037_IntroGeneric\Example037_IntroGeneric.csproj", "{FA0F16E1-9196-4376-A03A-2B8DB31679E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example038_MultiGeneric", "Example038_MultiGeneric\Example038_MultiGeneric.csproj", "{03FBC546-8B38-4849-B703-5E9B360D0359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example038_MultiGeneric", "Example038_MultiGeneric\Example038_MultiGeneric.csproj", "{03FBC546-8B38-4849-B703-5E9B360D0359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example039_MyGenericCollection", "Example039_MyGenericCollection\Example039_MyGenericCollection.csproj", "{8F6EC78C-D3E8-4DF0-91DB-9C74582A3D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example039_MyGenericCollection", "Example039_MyGenericCollection\Example039_MyGenericCollection.csproj", "{8F6EC78C-D3E8-4DF0-91DB-9C74582A3D6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example032_ObjectOrientedThinkingClassComponent007StaticCtor", "Example032_ObjectOrientedThinkingClassComponent007StaticCtor\Example032_ObjectOrientedThinkingClassComponent007StaticCtor.csproj", "{ED568239-9FBE-45F5-9904-810CCD165207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example032_ObjectOrientedThinkingClassComponent007StaticCtor", "Example032_ObjectOrientedThinkingClassComponent007StaticCtor\Example032_ObjectOrientedThinkingClassComponent007StaticCtor.csproj", "{ED568239-9FBE-45F5-9904-810CCD165207}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theory", "Theory", "{7920B677-8CEF-4BA1-838E-B28F81CE7A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboratory", "Laboratory", "{340D84D6-E250-4863-9538-86F597B4A301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example100_FirstCode", "Example100_FirstCode\Example100_FirstCode.csproj", "{07D373F3-1C52-42FD-84A7-FD62A76491E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,9 +273,59 @@ Global
 		{ED568239-9FBE-45F5-9904-810CCD165207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED568239-9FBE-45F5-9904-810CCD165207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED568239-9FBE-45F5-9904-810CCD165207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D373F3-1C52-42FD-84A7-FD62A76491E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D373F3-1C52-42FD-84A7-FD62A76491E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D373F3-1C52-42FD-84A7-FD62A76491E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D373F3-1C52-42FD-84A7-FD62A76491E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{922F3A03-361E-43C4-AD61-7DBD0475EC1F} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{2BC181AF-680A-4739-AD13-4D15C31989F5} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{B6B3E974-4CDD-4263-A748-7A5F06A1A662} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{2EB7FECE-5DF1-4C94-8417-DFFD3672A156} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{D3EB584E-1F7D-4CAB-8A47-B93D585C649F} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{0253494F-4930-4278-8A43-D6418E1140E3} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{9EBE8461-DAA0-4F3F-97CF-4AFF009CFA9E} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{C0F9E7A4-F2EC-463C-BBBD-6B7DC6454888} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{0B03F599-F627-4A99-B099-72BD3179D2BC} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{F808E88B-0197-4001-BBC7-FDD893182197} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{7105A2A8-09AF-43C5-9BB4-0251F03A3003} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{300370E6-40C0-4F7F-AEBD-97008EAC700F} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{2A1B04DF-7EF5-4A52-BFE4-8D13A22FEEC5} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{1BDE0B72-F379-45AC-A299-59DADE753256} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{08267071-961A-4FD3-9CE7-1D7A3AF38ACB} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{6F5E3809-4ACA-45CD-ACC3-34A7B21869A7} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{9E1E68CB-A561-4DBA-A766-E5E2BD115821} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{F7102D7A-5FCB-405B-9D0A-81A7F96F5E37} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{FCDC5059-827F-4457-95F5-AC9CB6506062} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{8BE8B876-9B86-4243-A15A-E71515F133D6} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{9A575658-79DD-4914-AF8C-E8307EC79EB4} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{26212024-600B-41EE-B4D8-067457B3E40C} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{22A34934-8FB4-46A0-9E54-16ED279FBAF7} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{08BAC57C-77B0-4AFA-8232-DC1BA8A40571} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{32EDDA9C-29A2-4E3F-90BB-AEDAAADD1CB1} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{2AF897FB-1574-4A06-ACDD-98A4F9798196} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{51748A3A-6DA7-4F15-9AF6-5ECE02839A64} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{1A5078CD-8718-4E34-9B19-9237E8E804BE} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{A3D5DDDA-8AF4-4A9C-9325-A1AED8DEFFCF} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{CDFEB1B1-BB8F-4D6E-9DB1-307FBA3A10BD} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{FC694124-7D97-47CC-8F2B-92311620FE29} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{048C1858-44C8-43AD-A448-CAD33D0BEBDE} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{FED6DF5B-FD5C-4206-8655-DBAFC52F03A0} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{08C80EA0-EE4A-49DD-A066-CD20CDA12830} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{387DC339-AA7E-4B50-BD17-E8630DF18A11} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{702D4AE6-A3E6-42AD-A8D3-E8A793AAFEF1} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{DE325FF1-DC04-4E7C-8D71-ED7A81CA3A92} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{5B9143E2-38F7-4A42-89BB-1F9658921ED3} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{B5E5467A-7BF0-4042-9D5F-9D6145D4CBB3} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{FA0F16E1-9196-4376-A03A-2B8DB31679E8} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{03FBC546-8B38-4849-B703-5E9B360D0359} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{8F6EC78C-D3E8-4DF0-91DB-9C74582A3D6C} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{ED568239-9FBE-45F5-9904-810CCD165207} = {7920B677-8CEF-4BA1-838E-B28F81CE7A37}
+		{07D373F3-1C52-42FD-84A7-FD62A76491E7} = {340D84D6-E250-4863-9538-86F597B4A301}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD399DB4-0F51-4E9E-8CDE-B067884C2D42}
