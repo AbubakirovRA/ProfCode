@@ -93,7 +93,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theory", "Theory", "{7920B6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboratory", "Laboratory", "{340D84D6-E250-4863-9538-86F597B4A301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example100_FirstCode", "Example100_FirstCode\Example100_FirstCode.csproj", "{07D373F3-1C52-42FD-84A7-FD62A76491E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example100_FirstCode", "Example100_FirstCode\Example100_FirstCode.csproj", "{07D373F3-1C52-42FD-84A7-FD62A76491E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F4E7A290-2158-4147-8C3A-0EDAF2D075CA}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\001Intro.md = Docs\001Intro.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
