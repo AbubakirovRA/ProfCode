@@ -67,4 +67,4 @@ double result = operation switch
 };
 
 WriteLine($"result = {result}");
-#endregion
+#endregion  
