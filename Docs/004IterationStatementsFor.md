@@ -51,6 +51,7 @@ Write("n >= 2, n = ");
 int n = int.Parse(ReadLine());
 
 string result = "ДА";
+
 for (int i = 2; i <= Math.Sqrt(n); i++)
 {
     if (result == "ДА")
@@ -59,6 +60,7 @@ for (int i = 2; i <= Math.Sqrt(n); i++)
         { result = "НЕТ"; }
     }
 }
+
 WriteLine(result);
 ```
 
@@ -69,6 +71,7 @@ Write("n >= 2, n = ");
 int n = int.Parse(ReadLine());
 
 string result = "ДА";
+
 for (int i = 2; i <= Math.Sqrt(n); i++)
 {
     if (n % i == 0)  //Если n делится на i
@@ -77,6 +80,7 @@ for (int i = 2; i <= Math.Sqrt(n); i++)
         break;
     }
 }
+
 WriteLine(result);
 ```
 
@@ -87,12 +91,14 @@ Write("n >= 2, n = ");
 int n = int.Parse(ReadLine());
 
 string result = "ДА";
+
 for (int i = 2; i <= Math.Sqrt(n); i++)
 {
     if (result == "НЕТ") continue;
     if (n % i == 0)  //Если n делится на i
     { result = "НЕТ"; }
 }
+
 WriteLine(result);
 ```
 Выяснить верно ли тождество <br>
@@ -123,6 +129,7 @@ WriteLine(sumLeft == sumRight);
 ```
 Write("n >= 1, n = ");
 int n = int.Parse(ReadLine());
+
 string result = "да";
 double sum = 0;
 
