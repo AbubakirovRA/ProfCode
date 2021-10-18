@@ -78,6 +78,8 @@ else                            // Иначе
 ReadLine();
 ```
 
+Сложно?
+===
 Написать простой калькулятор
 ---
 ```
@@ -122,6 +124,11 @@ double x = double.Parse(input);
 Write("Введите число: ");
 double x;
 while (!double.TryParse(Console.ReadLine(), out x)) ;
+```
+```
+Write("Введите первое число: ");
+double x;
+for (; !double.TryParse(Console.ReadLine(), out x);) ;
 ```
 ===
 ```
