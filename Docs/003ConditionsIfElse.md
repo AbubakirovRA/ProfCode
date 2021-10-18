@@ -57,8 +57,9 @@ else { WriteLine($"Результат: [{x1}; {y1}]"); }    //
 ```
 
 Вложенное ветвление
-Назвать возраст человека
 ===
+Назвать возраст человека
+---
 ```
 int age = 231;  //Исходные данные
 
@@ -77,6 +78,8 @@ else                            // Иначе
 ReadLine();
 ```
 
+Написать простой калькулятор
+---
 ```
 Write("Введите первое число: ");
 string input = Console.ReadLine();
@@ -101,11 +104,35 @@ if (operation == "/") result = x / y / z;
 if (operation == "*") result = x * y * z;
 if (operation == "+") result = x + y + z;
 if (operation == "-") result = x - y - z;
-if (operation == "^") result = Math.Pow(x,Math.Pow(y,z));
+if (operation == "^") result = Math.Pow(x, Math.Pow(y,z));
 
 WriteLine($"result = {result}");
 ```
+Как улучшить
+---
 
+```
+Write("Введите первое число: ");
+string input = Console.ReadLine();
+double x = double.Parse(input);
+```
+Заменить на
+
+```
+Write("Введите число: ");
+double x;
+while (!double.TryParse(Console.ReadLine(), out x)) ;
+```
+===
+```
+double result = 0;
+if (operation == "/") result = x / y / z;
+if (operation == "*") result = x * y * z;
+if (operation == "+") result = x + y + z;
+if (operation == "-") result = x - y - z;
+if (operation == "^") result = Math.Pow(x, Math.Pow(y,z));
+```
+Заменить на
 ```
 double result = operation switch
 {
@@ -113,6 +140,6 @@ double result = operation switch
     "*" => x * y * z,
     "-" => x - y - z,
     "+" => x + y + z,
-    _ => Math.Pow(Math.Pow(x, y),z)
+    _ => Math.Pow(Math.Pow(x, y), z)
 };
 ```
