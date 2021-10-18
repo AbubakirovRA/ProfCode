@@ -101,6 +101,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F4E7A290-2
 		Docs\002someTypes.md = Docs\002someTypes.md
 		Docs\003ConditionsIfElse.md = Docs\003ConditionsIfElse.md
 		Docs\004IterationStatementsFor.md = Docs\004IterationStatementsFor.md
+		Docs\005Arrays.md = Docs\005Arrays.md
 	EndProjectSection
 EndProject
 Global
