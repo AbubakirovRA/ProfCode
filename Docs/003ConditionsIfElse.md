@@ -130,7 +130,7 @@ Write("Введите первое число: ");
 double x;
 for (; !double.TryParse(Console.ReadLine(), out x);) ;
 ```
-===
+и
 ```
 double result = 0;
 if (operation == "/") result = x / y / z;
