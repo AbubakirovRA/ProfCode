@@ -98,6 +98,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F4E7A290-2158-4147-8C3A-0EDAF2D075CA}"
 	ProjectSection(SolutionItems) = preProject
 		Docs\001Intro.md = Docs\001Intro.md
+		Docs\002someTypes.md = Docs\002someTypes.md
+		Docs\003ConditionsIfElse.md = Docs\003ConditionsIfElse.md
 	EndProjectSection
 EndProject
 Global
