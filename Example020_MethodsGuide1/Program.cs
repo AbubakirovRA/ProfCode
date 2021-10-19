@@ -24,27 +24,27 @@ static void SayText1()
 #region Принимают параметры, не возвращают результат
 
 /// <summary>
-/// Метод, отображающий сообщение "Привет, Мир!" в консоли Count раз
+/// Метод, отображающий сообщение "Привет, Мир!" в консоли count раз
 /// </summary>
-/// <param name="Count">Количество сообшений</param>
-void SayText2(byte Count)
+/// <param name="count">Количество сообшений</param>
+void SayText2(byte count)
 {
-    for (int i = 0; i < Count; i++)
+    for (int i = 0; i < count; i++)
     {
         WriteLine("Привет, Мир!");
     }
 }
 
 /// <summary>
-/// Метод, отображающий сообщение Message в консоли Count раз
+/// Метод, отображающий сообщение message в консоли count раз
 /// </summary>
-/// <param name="Message">Сообщение, которое нужно показать на экране</param>
-/// <param name="Count">Количество сообшений</param>
-void PrintText(string Message, byte Count)
+/// <param name="message">Сообщение, которое нужно показать на экране</param>
+/// <param name="count">Количество сообшений</param>
+void PrintText(string message, byte count)
 {
-    for (int i = 0; i < Count; i++)
+    for (int i = 0; i < count; i++)
     {
-        WriteLine(Message);
+        WriteLine(message);
     }
 }
 
@@ -57,7 +57,7 @@ void PrintText(string Message, byte Count)
 /// <summary>
 /// Метод, возвращающий сообщение "Привет, Мир!"
 /// </summary>
-static string SayTextCount1()
+static string SayTextcount1()
 {
     return "Привет, Мир!";
 }
@@ -76,14 +76,14 @@ static double Pi()
 #region Принимают параметры, возвращают результат
 
 /// <summary>
-/// Метод, возвращающий сообщение "Привет, Мир!" Count раз
+/// Метод, возвращающий сообщение "Привет, Мир!" count раз
 /// </summary>
-/// <param name="Count">Количество сообшений</param>
-static string SayTextCount2(byte Count)
+/// <param name="count">Количество сообшений</param>
+static string SayTextcount2(byte count)
 {
     string msg = string.Empty;
 
-    for (int i = 0; i < Count; i++)
+    for (int i = 0; i < count; i++)
     {
         msg += "Привет, Мир! ";
     }
@@ -91,17 +91,17 @@ static string SayTextCount2(byte Count)
 }
 
 /// <summary>
-/// Метод, возвращающий сообщение Message Count раз
+/// Метод, возвращающий сообщение message count раз
 /// </summary>
-/// <param name="Message">Сообщение, которое нужно повторить</param>
-/// <param name="Count">Количество сообшений</param>
-static string SayTextCount3(string Message, byte Count)
+/// <param name="message">Сообщение, которое нужно повторить</param>
+/// <param name="count">Количество сообшений</param>
+static string SayTextcount3(string message, byte count)
 {
     string msg = string.Empty;
 
-    for (int i = 0; i < Count; i++)
+    for (int i = 0; i < count; i++)
     {
-        msg += Message;
+        msg += message;
     }
     return msg;
 }
@@ -113,36 +113,36 @@ static string SayTextCount3(string Message, byte Count)
 SystemPause();    // Вызов метода void SystemPause()
 SayText1();        // Вызов метода void SayText()
 
-SayText2(5);       // Вызов метода void SayText(byte Count) и передача в качестве параметра Count равного 5
+SayText2(5);       // Вызов метода void SayText(byte count) и передача в качестве параметра count равного 5
 
-PrintText("Мир прекрасен! ", 3);  // Вызов метода void PrintText(string Message, byte Count)
+PrintText("Мир прекрасен! ", 3);  // Вызов метода void PrintText(string message, byte count)
                                   // и передача в качестве параметров 
-                                  // Message равного "Мир прекрасен! "
-                                  // и Count равного 3
+                                  // message равного "Мир прекрасен! "
+                                  // и count равного 3
 
 #endregion
 
 #region Методы, не возвращающие результат
 
-string msg = SayTextCount1(); // Вызов метода string SayTextCount1()
+string msg = SayTextcount1(); // Вызов метода string SayTextcount1()
 var mathPi = Pi();            // Вызов метода double Pi()
 
-WriteLine($"Результат работы SayTextCount(): {msg}");
+WriteLine($"Результат работы SayTextcount(): {msg}");
 WriteLine($"Результат работы Pi(): {mathPi}");
 
 
-msg = SayTextCount2(3);       // Вызов метода string SayTextCount2(byte Count) 
-                             // и передача в качестве параметра Count равного 3
+msg = SayTextcount2(3);       // Вызов метода string SayTextcount2(byte count) 
+                             // и передача в качестве параметра count равного 3
 
-WriteLine($"Результат работы SayTextCount(byte Count): {msg}");
+WriteLine($"Результат работы SayTextcount(byte count): {msg}");
 
-msg = SayTextCount3("Это хороший день! ", 5);  // Вызов метода 
-                                              // string SayTextCount3(string Message, byte Count)
+msg = SayTextcount3("Это хороший день! ", 5); // Вызов метода 
+                                              // string SayTextcount3(string message, byte count)
                                               // и передача в качестве параметров
-                                              // Message равного "Это хороший день! "
-                                              // и Count равного 5
+                                              // message равного "Это хороший день! "
+                                              // и count равного 5
 
-WriteLine($"Результат работы SayTextCount(string Message, byte Count): {msg}");
+WriteLine($"Результат работы SayTextcount(string message, byte count): {msg}");
 
 #endregion
 

@@ -16,24 +16,24 @@ double f(double x)
 /// </summary>
 /// <param name="N">Число, которое нужно проверить</param>
 /// <returns></returns>
-bool IsEven(int N)
+bool IsEven(int n)
 {
-    return N % 2 == 0;
+    return n % 2 == 0;
 }
 
 /// <summary>
-/// Метод удаляющий повторяющиеся символы в строке Str
+/// Метод удаляющий повторяющиеся символы в строке str
 /// </summary>
-/// <param name="Str">Строка, в которой нужно удалить повторяющиеся символы</param>
+/// <param name="str">Строка, в которой нужно удалить повторяющиеся символы</param>
 /// <returns>Строка без повторений</returns>
-string DeleteDuplicates(string Str)
+string DeleteDuplicates(string str)
 {
     // ПППППООООООГГГГГООООДДДДААААА
     string temp = string.Empty;
-    Str += " ";
-    for (int i = 0; i < Str.Length - 1; i++)
+    str += " ";
+    for (int i = 0; i < str.Length - 1; i++)
     {
-        if (Str[i] != Str[i + 1]) temp += $"{Str[i]}";
+        if (str[i] != str[i + 1]) temp += $"{str[i]}";
     }
     return temp;
 }
@@ -41,21 +41,21 @@ string DeleteDuplicates(string Str)
 /// <summary>
 /// Метод возвращающий максимальное из трёх чисел
 /// </summary>
-/// <param name="Value1">Первое число</param>
-/// <param name="Value2">Второе число</param>
-/// <param name="Value3">Третье число</param>
+/// <param name="value1">Первое число</param>
+/// <param name="value2">Второе число</param>
+/// <param name="value3">Третье число</param>
 /// <returns>Максимальное число</returns>
-double Max(double Value1, double Value2, double Value3)
+double Max(double value1, double value2, double value3)
 {
-    if (Value1 > Value2 && Value1 > Value3)
+    if (value1 > value2 && value1 > value3)
     {
-        return Value1;
+        return value1;
     }
-    else if (Value2 > Value3)
+    else if (value2 > value3)
     {
-        return Value2;
+        return value2;
     }
-    else { return Value3; }
+    else { return value3; }
 }
 
 
@@ -82,7 +82,7 @@ double Max(double Value1, double Value2, double Value3)
 
 #endregion
 
-#region Демонстрация string DeleteDuplicates(string Str)
+#region Демонстрация string DeleteDuplicates(string str)
 
 //Write("\nСтрока с повторяющимися символами: ");
 //string text = ReadLine();
@@ -92,7 +92,7 @@ double Max(double Value1, double Value2, double Value3)
 
 #endregion
 
-#region Демонстрация double Max(double Value1, double Value2, double Value3)
+#region Демонстрация double Max(double value1, double value2, double value3)
 
 //Write("\nВведите первое число: ");
 //int numb1 = Convert.ToInt32(ReadLine());

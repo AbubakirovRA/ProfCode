@@ -6,30 +6,30 @@ using static System.Console;
 /// <summary>
 /// Метод, описывающий детали подключения к мерверу баз данных
 /// </summary>
-/// <param name="Login">Логин польователя</param>
-/// <param name="Password">Пароль пользователя</param>
-/// <param name="IpServer">IP-Адрес сервера</param>
-/// <param name="DataBaseName">Имя базы данных</param>
-/// <param name="Pooling">Использование пула подключений</param>
-/// <param name="Value">Значение переменной Value</param>
+/// <param name="login">Логин польователя</param>
+/// <param name="password">Пароль пользователя</param>
+/// <param name="ipServer">IP-Адрес сервера</param>
+/// <param name="dataBaseName">Имя базы данных</param>
+/// <param name="pooling">Использование пула подключений</param>
+/// <param name="value">Значение переменной value</param>
 void ConnectionDb1(
-                          string Login,
-                          string Password,
-                          string IpServer,
-                          string DataBaseName,
-                          bool Pooling,
-                          double Value
+                          string login,
+                          string password,
+                          string ipServer,
+                          string dataBaseName,
+                          bool pooling,
+                          double value
     )
 {
     /// Логика работы...
     /// 
     ///
-    WriteLine($"Server = {IpServer}");
-    WriteLine($"DataBaseName = {DataBaseName}");
-    WriteLine($"Login = {Login}");
-    WriteLine($"Password = {Password}");
-    WriteLine($"DataBaseName = {Pooling}");
-    WriteLine($"Value = {Value}\n");
+    WriteLine($"Server = {ipServer}");
+    WriteLine($"dataBaseName = {dataBaseName}");
+    WriteLine($"login = {login}");
+    WriteLine($"password = {password}");
+    WriteLine($"dataBaseName = {pooling}");
+    WriteLine($"value = {value}\n");
 }
 
 #endregion
@@ -39,30 +39,30 @@ void ConnectionDb1(
 /// <summary>
 /// Метод, описывающий детали подключения к мерверу баз данных
 /// </summary>
-/// <param name="Login">Логин польователя</param>
-/// <param name="Password">Пароль пользователя</param>
-/// <param name="IpServer">IP-Адрес сервера</param>
-/// <param name="DataBaseName">Имя базы данных</param>
-/// <param name="Pooling">Использование пула подключений</param>
-/// <param name="Value">Значение переменной Value</param>
+/// <param name="login">Логин польователя</param>
+/// <param name="password">Пароль пользователя</param>
+/// <param name="ipServer">IP-Адрес сервера</param>
+/// <param name="dataBaseName">Имя базы данных</param>
+/// <param name="pooling">Использование пула подключений</param>
+/// <param name="value">Значение переменной value</param>
 void ConnectionDb2(
-                    string Login = "Admin",
-                    string Password = "qwertyu",
-                    string IpServer = "127.0.0.1",
-                    string DataBaseName = "DemoBase",
-                    bool Pooling = true,
-                    double Value = 28.09
+                    string login = "Admin",
+                    string password = "qwertyu",
+                    string ipServer = "127.0.0.1",
+                    string dataBaseName = "DemoBase",
+                    bool pooling = true,
+                    double value = 28.09
     )
 {
     /// Логика работы...
     /// 
     ///
-    WriteLine($"Login = {Login}");
-    WriteLine($"Password = {Password}");
-    WriteLine($"Server = {IpServer}");
-    WriteLine($"DataBaseName = {DataBaseName}");
-    WriteLine($"DataBaseName = {Pooling}");
-    WriteLine($"Value = {Value}\n");
+    WriteLine($"login = {login}");
+    WriteLine($"password = {password}");
+    WriteLine($"Server = {ipServer}");
+    WriteLine($"dataBaseName = {dataBaseName}");
+    WriteLine($"dataBaseName = {pooling}");
+    WriteLine($"value = {value}\n");
 }
 
 #endregion
@@ -162,7 +162,7 @@ double Summation(params double[] Args)
 
 
 #region Актуализация
-// Меняется только Login
+// Меняется только login
 
 //ConnectionDb1("User1", "qwertyu", "127.0.0.1", "DemoBase", true, 28.01);
 //ConnectionDb1("User2", "qwertyu", "127.0.0.2", "DemoBase", true, 28.01);
@@ -172,7 +172,7 @@ double Summation(params double[] Args)
 
 #region Параметры по умолчанию
 
-// Меняется только Login
+// Меняется только login
 //ConnectionDb2();
 //ConnectionDb2("User1");
 //ConnectionDb2("User1", "qwertyu");
@@ -185,10 +185,10 @@ double Summation(params double[] Args)
 
 #region Именованные параметры
 
-// Меняется только Login и Value
-ConnectionDb2(Login: "User1", Password: "qwertyu", Value: 28.01);
-ConnectionDb2(IpServer: "123.123.123.1");
-ConnectionDb2(Pooling: !true);
+// Меняется только login и value
+ConnectionDb2(login: "User1", password: "qwertyu", value: 28.01);
+ConnectionDb2(ipServer: "123.123.123.1");
+ConnectionDb2(pooling: !true);
 
 #endregion
 
